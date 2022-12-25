@@ -1,0 +1,80 @@
+.experts {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.experts .title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f91944;
+    margin-bottom: 20px;
+}
+
+.experts .sub {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #656565;
+    margin-bottom: 20px;
+}
+
+.experts .card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.experts .card:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    transform: scaleY(1.02);
+}
+
+.experts .card .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.experts .card .card-body {
+    padding: 20px;
+}
+
+.experts .card .card-body .name {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f91944;
+    margin-bottom: 10px;
+}
+
+.experts .card .card-body .description {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #656565;
+    margin-bottom: 10px;
+}
+
+.experts .card .card-body .details__btn {
+    background-color: #f91944;
+    border: 1px solid #f91944;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.experts .card .card-body .details__btn:hover {
+    background-color: #ffffff;
+    color: #f91944;
+    border: 1px solid #f91944;
+}

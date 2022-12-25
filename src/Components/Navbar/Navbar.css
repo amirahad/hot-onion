@@ -18,6 +18,11 @@
 
 }
 
+.sticky-top {
+    background-color: white;
+    box-shadow: 0 0 10px #e1dfe0;
+}
+
 .nav__button__active {
     border: none;
     padding: 10px 20px;
@@ -49,4 +54,9 @@
 
 .center .nav-item .nav-link:hover {
     color: #F91944 !important;
+}
+
+.navbar-toggler {
+    background-color: #F91944 !important;
+    color: white !important;
 }

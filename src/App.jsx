@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css'
+import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import DelivaryDetails from './Pages/DelivaryDetails/DelivaryDetails'
 import Error from './Pages/Error/Error'
@@ -17,6 +18,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
           <Route path="/signup">
             <SignUp />
           </Route>
@@ -31,6 +35,7 @@ function App() {
           </Route>
 
         </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   )

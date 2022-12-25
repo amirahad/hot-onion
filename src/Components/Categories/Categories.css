@@ -1,0 +1,40 @@
+.title {
+    color: #F91944;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.button-group button {
+    background-color: #ffffff;
+    border: 1px solid #F91944;
+    color: #F91944;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-group .selected {
+    background-color: #F91944;
+    border: 1px solid #F91944;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}

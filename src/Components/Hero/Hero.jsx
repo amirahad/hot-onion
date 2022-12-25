@@ -6,9 +6,8 @@ const Hero = () => {
         <>
             <div className="banner">
                 <div className="banner__middle">
-                    <div className="col-md-2"></div>
-                    <div className="col-md-8">
-                        <h2>Best food waiting for your belly</h2>
+                    <div className="col-12 col-md-8 ml-5">
+                        <h2 className='tagline'>Best food waiting for your belly</h2>
                         <br />
                         <input
                             type="text"

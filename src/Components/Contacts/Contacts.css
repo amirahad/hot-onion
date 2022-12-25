@@ -1,0 +1,55 @@
+#contacts {
+    background-color: #fff9fa;
+    padding: 50px 0;
+}
+
+#contacts .title {
+    color: #F91944;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contacts .sub {
+    color: #656565;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contacts input,
+#contacts textarea {
+    border: none !important;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #F91944 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+#contacts input:focus,
+#contacts textarea:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+    background-color: #F91944 !important;
+}
+
+#contacts input[type="submit"] {
+    background-color: #F91944;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#contacts input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #F91944;
+    border: 1px solid #F91944;
+}
