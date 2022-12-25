@@ -7,7 +7,7 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='container-fluid'>
             <nav className="navbar navbar-expand-lg ">
                 <Link to="/">
                     <img src={navLogo} alt="" className="navbar__logo" />
