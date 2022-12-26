@@ -53,7 +53,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to="/#">
+                        <Link className="nav-link" to="/signup">
                             <button className="nav__button__active">Sign In</button>
                         </Link>
                     </li>

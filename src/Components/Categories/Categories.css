@@ -38,3 +38,39 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+
+.view-cart-btn {
+    background-color: #ffffff;
+    border: 1px solid #F91944 !important;
+    color: #F91944 !important;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .view-cart-btn a {
+    color: #F91944 !important;
+    text-decoration: none;
+} */
+
+.view-cart-btn:hover {
+    background-color: #F91944;
+    border: 1px solid #F91944;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .view-cart-btn:hover a {
+    color: #ffffff !important;
+    text-decoration: none;
+} */
